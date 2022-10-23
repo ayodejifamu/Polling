@@ -1,0 +1,15 @@
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/bin/Release/net6.0/EPolling.Application.deps.json
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/bin/Release/net6.0/EPolling.Application.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/bin/Release/net6.0/EPolling.Application.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/bin/Release/net6.0/EPolling.Domain.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/bin/Release/net6.0/EPolling.Domain.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.csproj.AssemblyReference.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.AssemblyInfoInputs.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.AssemblyInfo.cs
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.csproj.CoreCompileInputs.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.csproj.CopyComplete
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/refint/EPolling.Application.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/EPolling.Application.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/Release/net6.0/ref/EPolling.Application.dll

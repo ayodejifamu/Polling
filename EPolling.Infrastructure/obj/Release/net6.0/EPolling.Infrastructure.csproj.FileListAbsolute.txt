@@ -1,0 +1,17 @@
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Infrastructure.deps.json
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Infrastructure.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Infrastructure.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Application.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Domain.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Application.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/bin/Release/net6.0/EPolling.Domain.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.csproj.AssemblyReference.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.AssemblyInfoInputs.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.AssemblyInfo.cs
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.csproj.CopyComplete
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/refint/EPolling.Infrastructure.dll
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/EPolling.Infrastructure.pdb
+/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/Release/net6.0/ref/EPolling.Infrastructure.dll

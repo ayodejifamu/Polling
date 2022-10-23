@@ -1,0 +1,472 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.API/EPolling.API.csproj": {}
+  },
+  "projects": {
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.API/EPolling.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.API/EPolling.API.csproj",
+        "projectName": "EPolling.API",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.API/EPolling.API.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj"
+              },
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/EPolling.Identity.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/EPolling.Identity.csproj"
+              },
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/EPolling.Infrastructure.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/EPolling.Infrastructure.csproj"
+              },
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/EPolling.Persistence.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/EPolling.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj",
+        "projectName": "EPolling.Application",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/EPolling.Domain.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/EPolling.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/EPolling.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/EPolling.Domain.csproj",
+        "projectName": "EPolling.Domain",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/EPolling.Domain.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/EPolling.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/EPolling.Identity.csproj",
+        "projectName": "EPolling.Identity",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/EPolling.Identity.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/EPolling.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/EPolling.Infrastructure.csproj",
+        "projectName": "EPolling.Infrastructure",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/EPolling.Infrastructure.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/EPolling.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/EPolling.Persistence.csproj",
+        "projectName": "EPolling.Persistence",
+        "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/EPolling.Persistence.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Projects/epolling/EPolling.Application/EPolling.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

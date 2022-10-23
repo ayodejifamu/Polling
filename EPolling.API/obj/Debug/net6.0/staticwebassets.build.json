@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9WyKmWt1ExKZfOSkgAFwpdDzmK1aFsCr3DLo5iBD8iY=",
+  "Source": "EPolling.API",
+  "BasePath": "_content/EPolling.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
